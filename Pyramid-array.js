@@ -23,3 +23,5 @@ function pyramid(n) {
   }
   return retVal;
 }
+
+// or
