@@ -25,3 +25,11 @@ function pyramid(n) {
 }
 
 // or
+
+function pyramid(n) {
+  let result = [];
+  for (let i = 1; i <= n; i++) {
+    result.push(new Array(i).fill(1));
+  }
+    return result;
+}
