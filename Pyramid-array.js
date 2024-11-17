@@ -12,3 +12,14 @@ Note: the subarrays should be filled with 1s
 
 
 // Solution
+
+function pyramid(n) {
+  let retVal = [];
+  for (let i = 0; i < n; i++) {
+    retVal[i] = [];
+    for (let j = 0; j < i + 1; j++) {
+      retVal[i].push(1);
+    }
+  }
+  return retVal;
+}
